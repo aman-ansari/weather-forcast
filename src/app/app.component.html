@@ -1,2 +1,38 @@
-<app-header></app-header>
+<div class="wrapper">
+  <app-header></app-header>
+  <div class="search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <app-search></app-search>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="upper_data">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left_data">
+            <app-local-weather-report></app-local-weather-report>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right_data">
+            <app-sea-forecast-report></app-sea-forecast-report>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+  <div class="lower_data">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <app-weather-report-day></app-weather-report-day>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <router-outlet></router-outlet>

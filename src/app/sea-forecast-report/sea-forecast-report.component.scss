@@ -1,0 +1,36 @@
+.sea_forecast_report {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 25px 15px 15px 15px;
+    color: #fff;
+    .heading {
+      h5 {
+        text-align: center;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+      }
+    }
+    .sea_forecast_data {
+        margin-top: 15px;
+      .data_container{
+        .item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 4px 0;
+            h5{
+                font-size: 13px;
+                color: rgba(255,255,255,0.8);
+                margin-bottom: 0;
+            }
+            p{
+                font-size: 12px;
+                color: rgba(255,255,255,0.8);
+                margin-bottom: 0;
+            }
+        }
+      }
+    }
+  }
+  
