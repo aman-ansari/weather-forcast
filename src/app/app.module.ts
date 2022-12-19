@@ -9,6 +9,7 @@ import { FooterComponent } from './core/footer/footer.component';
 import { LocalWeatherReportComponent } from './local-weather-report/local-weather-report.component';
 import { SeaForecastReportComponent } from './sea-forecast-report/sea-forecast-report.component';
 import { WeatherReportDayComponent } from './weather-report-day/weather-report-day.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { WeatherReportDayComponent } from './weather-report-day/weather-report-d
     FooterComponent,
     LocalWeatherReportComponent,
     SeaForecastReportComponent,
-    WeatherReportDayComponent
+    WeatherReportDayComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
